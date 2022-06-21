@@ -1,9 +1,9 @@
-package org.sadtech.example.jwt.server.service;
+package dev.struchkov.example.jwt.server.service;
 
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
-import org.sadtech.example.jwt.server.domain.Role;
-import org.sadtech.example.jwt.server.domain.User;
+import dev.struchkov.example.jwt.server.domain.Role;
+import dev.struchkov.example.jwt.server.domain.User;
 import org.springframework.stereotype.Service;
 
 import java.util.Collections;

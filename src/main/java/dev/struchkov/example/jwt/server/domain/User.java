@@ -1,4 +1,4 @@
-package org.sadtech.example.jwt.server.domain;
+package dev.struchkov.example.jwt.server.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,8 +9,8 @@ import java.util.Set;
 
 @Getter
 @Setter
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 public class User {
 
     private String login;

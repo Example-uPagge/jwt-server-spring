@@ -1,4 +1,4 @@
-package org.sadtech.example.jwt.server;
+package dev.struchkov.example.jwt.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

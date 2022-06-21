@@ -1,10 +1,10 @@
-package org.sadtech.example.jwt.server.controller;
+package dev.struchkov.example.jwt.server.controller;
 
+import dev.struchkov.example.jwt.server.domain.JwtResponse;
+import dev.struchkov.example.jwt.server.domain.RefreshJwtRequest;
+import dev.struchkov.example.jwt.server.service.AuthService;
 import lombok.RequiredArgsConstructor;
-import org.sadtech.example.jwt.server.domain.JwtRequest;
-import org.sadtech.example.jwt.server.domain.JwtResponse;
-import org.sadtech.example.jwt.server.domain.RefreshJwtRequest;
-import org.sadtech.example.jwt.server.service.AuthService;
+import dev.struchkov.example.jwt.server.domain.JwtRequest;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

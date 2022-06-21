@@ -1,11 +1,11 @@
-package org.sadtech.example.jwt.server.filter;
+package dev.struchkov.example.jwt.server.filter;
 
+import dev.struchkov.example.jwt.server.service.JwtProvider;
+import dev.struchkov.example.jwt.server.service.JwtUtils;
 import io.jsonwebtoken.Claims;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.sadtech.example.jwt.server.domain.JwtAuthentication;
-import org.sadtech.example.jwt.server.service.JwtProvider;
-import org.sadtech.example.jwt.server.service.JwtUtils;
+import dev.struchkov.example.jwt.server.domain.JwtAuthentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;

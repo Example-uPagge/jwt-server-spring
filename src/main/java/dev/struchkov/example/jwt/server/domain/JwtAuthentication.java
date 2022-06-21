@@ -1,4 +1,4 @@
-package org.sadtech.example.jwt.server.domain;
+package dev.struchkov.example.jwt.server.domain;
 
 import lombok.Getter;
 import lombok.Setter;

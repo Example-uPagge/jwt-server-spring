@@ -1,13 +1,13 @@
-package org.sadtech.example.jwt.server.service;
+package dev.struchkov.example.jwt.server.service;
 
 import io.jsonwebtoken.Claims;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
-import org.sadtech.example.jwt.server.domain.JwtAuthentication;
-import org.sadtech.example.jwt.server.domain.JwtRequest;
-import org.sadtech.example.jwt.server.domain.JwtResponse;
-import org.sadtech.example.jwt.server.domain.User;
-import org.sadtech.example.jwt.server.exception.AuthException;
+import dev.struchkov.example.jwt.server.domain.JwtAuthentication;
+import dev.struchkov.example.jwt.server.domain.JwtRequest;
+import dev.struchkov.example.jwt.server.domain.JwtResponse;
+import dev.struchkov.example.jwt.server.domain.User;
+import dev.struchkov.example.jwt.server.exception.AuthException;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 
